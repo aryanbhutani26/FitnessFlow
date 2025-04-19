@@ -161,7 +161,7 @@ Is there anything specific about your fitness routine, nutrition, or dance techn
       className="py-20 bg-white"
     >
       <div className="container mx-auto px-4 pt-16">
-        <h2 className="text-2xl font-poppins font-bold mb-2">AI Fitness Coach</h2>
+        <h2 className="text-2xl font-poppins font-bold mb-2 text-red-700">AI Fitness Coach</h2>
         <p className="text-neutral-600 mb-10">Get personalized fitness advice, motivation, and answers to all your health questions</p>
         
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
