@@ -229,11 +229,11 @@ export default function WeeklyOverview({
           <>
             <div className="flex items-center">
               <span className="w-3 h-3 rounded-full bg-primary mr-2"></span>
-              <span className="text-sm">Consumed</span>
+              <span className="text-sm text-red-700">Consumed</span>
             </div>
             <div className="flex items-center">
               <span className="w-3 h-3 rounded-full bg-secondary mr-2"></span>
-              <span className="text-sm">Burned</span>
+              <span className="text-sm text-red-700">Burned</span>
             </div>
           </>
         )}
