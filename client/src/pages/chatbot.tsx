@@ -161,7 +161,7 @@ Is there anything specific about your fitness routine, nutrition, or dance techn
       className="py-20 bg-white"
     >
       <div className="container mx-auto px-4 pt-16">
-        <h2 className="text-2xl font-poppins font-bold mb-2">AI Fitness Coach</h2>
+        <h2 className="text-2xl font-poppins font-bold mb-2 text-red-700">AI Fitness Coach</h2>
         <p className="text-neutral-600 mb-10">Get personalized fitness advice, motivation, and answers to all your health questions</p>
         
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -205,14 +205,14 @@ Is there anything specific about your fitness routine, nutrition, or dance techn
             >
               <h3 className="font-medium mb-4">Today's Motivation</h3>
               <div className="mb-6">
-                <blockquote className="text-lg font-poppins">
+                <blockquote className="text-lg font-poppins text-blue-700">
                   "{dailyMotivation.quote}"
                 </blockquote>
                 <div className="mt-3 text-white/70 text-sm">— {dailyMotivation.author}</div>
               </div>
               <div className="border-t border-white/20 pt-4 mt-4">
                 <h4 className="text-sm font-medium mb-2">Your Daily Goal</h4>
-                <p className="text-sm text-white/80">{dailyGoal}</p>
+                <p className="text-sm text-blue-700">{dailyGoal}</p>
               </div>
             </motion.div>
           </motion.div>

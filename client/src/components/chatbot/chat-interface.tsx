@@ -56,7 +56,7 @@ export default function ChatInterface({ messages, onSendMessage }: ChatInterface
             <AvatarImage src="/bot-avatar.png" />
           </Avatar>
           <div className="ml-3">
-            <h3 className="font-medium">RhythmBot</h3>
+            <h3 className="font-medium text-red-400">RhythmBot</h3>
             <div className="flex items-center text-xs text-neutral-500">
               <div className="w-2 h-2 bg-secondary rounded-full mr-2 animate-pulse"></div>
               <span>Online</span>
@@ -98,7 +98,7 @@ export default function ChatInterface({ messages, onSendMessage }: ChatInterface
                 className={`
                   ${message.sender === 'user' 
                     ? 'bg-primary text-white rounded-lg rounded-tr-none max-w-[80%]' 
-                    : 'bg-white rounded-lg rounded-tl-none max-w-[80%]'}
+                    : 'bg-white rounded-lg rounded-tl-none max-w-[80%] text-red-500'}
                   p-3
                 `}
               >
